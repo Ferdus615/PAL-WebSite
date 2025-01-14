@@ -1,0 +1,42 @@
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 25px;
+  background-color: #85c1f9;
+
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+
+  z-index: 3;
+}
+
+.naviLogo {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  padding-left: 20px;
+  font-family: SemiBold;
+  font-size: 1.2em;
+}
+
+.naviLinks ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-right: 50px;
+}
+.naviLinks li a {
+  font-family: SemiBold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.25s;
+  color: #404df5;
+}
+.naviLinks li a:hover {
+  color: #011003;
+}

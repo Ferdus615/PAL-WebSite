@@ -1,0 +1,20 @@
+.para {
+  height: 50vh;
+  width: 100%;
+
+  font-family: Regular;
+  font-size: 3em;
+  text-align: justify;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  /* background-color: #85c1f9; */
+  background-color: #404df5;
+  /* color: #4b4b4b; */
+  color: #f6fff8;
+
+  overflow: hidden;
+}

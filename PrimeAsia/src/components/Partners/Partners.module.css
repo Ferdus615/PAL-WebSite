@@ -1,0 +1,29 @@
+.partners {
+  height: 300px;
+  background-color: #f6fff8;
+}
+
+.text {
+  font-family: Bold;
+  color: #39ac45;
+  text-align: center;
+  padding-top: 45px;
+  text-decoration: underline;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos img {
+  width: 220px;
+  padding: 20px;
+  filter: grayscale(100%);
+  transform: filter 0.25s;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}

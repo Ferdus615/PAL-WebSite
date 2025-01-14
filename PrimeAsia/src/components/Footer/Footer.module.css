@@ -1,0 +1,142 @@
+.footer {
+  background-color: #85c1f9;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 50px repeat(8, 1fr) 50px;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 30px;
+  overflow: auto;
+}
+
+.Name {
+  font-size: 1.5em;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  font-family: Bold;
+  color: #404df5;
+  text-decoration: underline;
+}
+.info {
+  grid-column: 2 / 5;
+  grid-row: 3 / 5;
+  font-family: Light;
+  text-align: justify;
+  color: #505050;
+}
+
+.contactTitle {
+  grid-column: 5;
+  grid-row: 2;
+  font-family: Regular;
+  color: #f6fff8;
+  font-size: 1.5em;
+}
+.contacts {
+  grid-column: 5 / 8;
+  grid-row: 3 / 4;
+  font-family: Light;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.location p,
+.phone p,
+.email a {
+  padding-left: 10px;
+  font-family: Light;
+  transition: color 0.25s;
+  text-decoration: none;
+  color: #011003;
+}
+.location p:hover,
+.phone p:hover,
+.email a:hover {
+  color: #404df5;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 25px 100px;
+  grid-template-rows: repeat(5, 1fr);
+
+  gap: 5px;
+  grid-column: 8 / 9;
+  grid-row: 3 / 4;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #011003;
+  font-family: Light;
+}
+.socials a:hover {
+  text-decoration: none;
+  color: #404df5;
+}
+
+.socials img {
+  width: 20px;
+  grid-column: 1 / 2;
+}
+
+.blogs {
+  grid-column: 9 / 10;
+  grid-row: 3 / 4;
+  font-family: Light;
+}
+.blogs ul {
+  list-style: none;
+}
+.blogLink {
+  font-family: Regular;
+  font-size: 1.5em;
+  grid-column: 9 / 10;
+  grid-row: 2;
+  color: #f6fff8;
+}
+.blogs a {
+  text-decoration: none;
+  color: #011003;
+}
+
+.line {
+  border-top: 1px solid #011003;
+  grid-column: 2 / 10;
+  grid-row: 4;
+}
+
+.copyright {
+  grid-column: 2 / 5;
+  grid-row: 4;
+
+  font-family: Light;
+  padding-top: 30px;
+}
+
+.chat {
+  grid-column: 8;
+  grid-row: 4;
+
+  padding-top: 40px;
+}
+.chat a {
+  text-decoration: none;
+  font-family: SemiBold;
+  color: #404df5;
+
+  border: 1px solid #011003;
+  border-radius: 5px;
+
+  padding: 10px;
+  transition: color 0.25s;
+  transition: background-color 0.25s;
+}
+.chat a:hover {
+  background-color: #39ac45;
+  color: #f6fff8;
+}
