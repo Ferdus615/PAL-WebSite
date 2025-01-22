@@ -10,7 +10,12 @@ const Partners = () => {
         </div>
 
         <div className={styles.logos}>
-          <Marquee pauseOnClick={true} autoFill={true} gradient={true}>
+          <Marquee
+            pauseOnClick={true}
+            autoFill={true}
+            gradient={true}
+            gradientColor="#cfd0c3"
+          >
             <img src="./img/logo 1.png" alt="partner logo" loading="lazy" />
 
             <img src="./img/logo 2.png" alt="partner logo" loading="lazy" />
@@ -26,6 +31,7 @@ const Partners = () => {
             pauseOnClick={true}
             autoFill={true}
             gradient={true}
+            gradientColor="#cfd0c3"
             direction="right"
           >
             <img src="./img/logo 6.png" alt="partner logo" loading="lazy" />

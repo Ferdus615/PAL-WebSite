@@ -1,5 +1,5 @@
 .footer {
-  background-color: #85c1f9;
+  background-color: #1c775a;
   height: 400px;
   display: grid;
   grid-template-columns: 50px repeat(8, 1fr) 50px;
@@ -13,7 +13,7 @@
   grid-column: 2 / 4;
   grid-row: 2 / 3;
   font-family: Bold;
-  color: #404df5;
+  color: #77dd77;
   text-decoration: underline;
 }
 .info {
@@ -21,14 +21,14 @@
   grid-row: 3 / 5;
   font-family: Light;
   text-align: justify;
-  color: #505050;
+  color: #94dfe0;
 }
 
 .contactTitle {
   grid-column: 5;
   grid-row: 2;
   font-family: Regular;
-  color: #f6fff8;
+  color: #cfd0c3;
   font-size: 1.5em;
 }
 .contacts {
@@ -51,12 +51,13 @@
   font-family: Light;
   transition: color 0.25s;
   text-decoration: none;
-  color: #011003;
+  color: #cfd0c3;
+  transition: color 0.25s ease;
 }
 .location p:hover,
 .phone p:hover,
 .email a:hover {
-  color: #404df5;
+  color: #94dfe0;
 }
 
 .socials {
@@ -71,12 +72,13 @@
 
 .socials a {
   text-decoration: none;
-  color: #011003;
+  color: #cfd0c3;
   font-family: Light;
+  transition: color 0.25s ease;
 }
 .socials a:hover {
   text-decoration: none;
-  color: #404df5;
+  color: #94dfe0;
 }
 
 .socials img {
@@ -97,15 +99,15 @@
   font-size: 1.5em;
   grid-column: 9 / 10;
   grid-row: 2;
-  color: #f6fff8;
+  color: #cfd0c3;
 }
 .blogs a {
   text-decoration: none;
-  color: #011003;
+  color: #cfd0c3;
 }
 
 .line {
-  border-top: 1px solid #011003;
+  border-top: 1px solid #94dfe0;
   grid-column: 2 / 10;
   grid-row: 4;
 }
@@ -115,6 +117,7 @@
   grid-row: 4;
 
   font-family: Light;
+  color: #94dfe0;
   padding-top: 30px;
 }
 
@@ -127,16 +130,16 @@
 .chat a {
   text-decoration: none;
   font-family: SemiBold;
-  color: #404df5;
+  color: #bfff00;
 
-  border: 1px solid #011003;
+  border: 1px solid #bfff00;
   border-radius: 5px;
 
   padding: 10px;
   transition: color 0.25s;
-  transition: background-color 0.25s;
+  transition: background-color 0.25s ease;
 }
 .chat a:hover {
-  background-color: #39ac45;
-  color: #f6fff8;
+  background-color: #cfd0c3;
+  color: #1c775a;
 }

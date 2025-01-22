@@ -9,8 +9,8 @@ import {
 import Navigation from "./components/Navigation/Navigation";
 
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import News from "./pages/News";
+import Blogs from "./pages/Blogs/Blogs";
+import News from "./pages/News/News";
 
 import "./App.css";
 

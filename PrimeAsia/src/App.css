@@ -7,9 +7,11 @@
 :root {
   --text: #011003;
   --background: #f6fff8;
-  --primary: #39ac45;
-  --secondary: #85c1f9;
-  --accent: #404df5;
+  --primary: #1c775a;
+  --secondary: #77dd77;
+  --accent: #94dfe0;
+  --nutral: #cfd0c3;
+  --pop: #bfff00;
 }
 
 html {
@@ -17,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #f6fff8;
+  background-color: #cfd0c3;
 }
 
 ::-webkit-scrollbar {
